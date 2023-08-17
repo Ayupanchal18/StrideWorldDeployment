@@ -19,16 +19,16 @@
             <div class="Items D-F">
                 <ul class="D-F List">
                     <div class="Logo">
-                        <a href="../index.html"> <img id="Logo" src="./Assets/logo1.png" alt="logo"></a>
+                        <a href="../Index.html"> <img id="Logo" src="../Assets/logo1.png" alt="logo"></a>
                     </div>
                     <div class="D-F" id="ListItem">
                         <div class="MobilenavBarToggleofffDiv">
                             <i class="fa-solid fa-bars fa-xl " id="MobilenavBarOff" style="color: #000000;"></i>
                         </div>
-                        <a class="Links" href="../index.html">
+                        <a class="Links" href="../Index.html">
                             <li>HOME</li>
                         </a>
-                        <li class="MobilenavBarToggleOff">
+                        <li class="MobilenavBarToggleOff" style="display: none;">
                             <div>
                                 <i class="fa-solid fa-bars fa-xl" style="color: #000000;"></i>
                             </div>
@@ -141,75 +141,36 @@
                 <div class="account">
                     <a href=""><i class="fa-solid fa-user fa-xl" style="color: #000000;"></i></a>
                 </div>
-                <div class="MobilenavBarToggleDiv">
-                    <i class="fa-solid fa-bars fa-xl " id="MobilenavBarToggle" style="color: #000000;"></i>
-                </div>
                 <div class="cartIconInNavbar">
                     <a href="#">
-                        <i class="fa-solid fa-cart-shopping fa-xl" id="IconOfCart" style="color: #000000;">
-                        </i>
+                        <span class="CartIconProductCounter" style="
+                            position: absolute;
+                            background-color: #2f3542;
+                            top: -14px;
+                            right: -7px;
+                            font-size: 12px;
+                            color: white;
+                            padding: 0px 6px;
+                            height: 18px;
+                            width: 18px;
+                            line-height: 20px;
+                            border-radius: 50%;
+                            z-index: 99;
+                            ">0</span>
+                        <i class="fa-solid fa-cart-shopping fa-xl" id="IconOfCart" style="color: #000000;"></i>
                     </a>
                     <div class="Mini-Cart">
                         <div class="MiniCartHeading">
-                            <h2><span>5</span> items In Cart</h2>
+                            <h2>items In Cart</h2>
                         </div>
                         <hr>
-                        <div class="MinicartContent D-F">
-                            <div class="MinicartProductImage">
-                                <img src="../Assets/Adidas Product/01 - Copy.jpg" alt="">
-                            </div>
-                            <div class="MinicartProductDetails">
-                                <a href="#">
-                                    <h3>TRC Blaze Knit Unisex Sneakers</h3>
-                                </a>
-                                <a href="../Brand page links/Puma.html">
-                                    <h4>By PUMA</h4>
-                                </a>
-                                <h5>1999 ₹</h5>
-                            </div>
-                            <div class="MiniCartProductRemoverBtndiv">
-                                <a href="#"><i class="fa-solid fa-x fa-sm" style="color: #000000;"></i></a>
-                            </div>
-                        </div>
-                        <div class="MinicartContent D-F">
-                            <div class="MinicartProductImage">
-                                <img src="../Assets/Adidas Product/03 - Copy.jpg" alt="">
-                            </div>
-                            <div class="MinicartProductDetails">
-                                <a href="#">
-                                    <h3>TRC Blaze Knit Unisex Sneakers</h3>
-                                </a>
-                                <a href="../Brand page links/Puma.html">
-                                    <h4>By PUMA</h4>
-                                </a>
-                                <h5>1999 ₹</h5>
-                            </div>
-                            <div class="MiniCartProductRemoverBtndiv">
-                                <a href="#"><i class="fa-solid fa-x fa-sm" style="color: #000000;"></i></a>
-                            </div>
-                        </div>
-                        <div class="MinicartContent D-F">
-                            <div class="MinicartProductImage">
-                                <img src="../Assets/Adidas Product/02 - Copy.jpg" alt="">
-                            </div>
-                            <div class="MinicartProductDetails">
-                                <a href="#">
-                                    <h3>TRC Blaze Knit Unisex Sneakers</h3>
-                                </a>
-                                <a href="../Brand page links/Puma.html">
-                                    <h4>By PUMA</h4>
-                                </a>
-                                <h5>1999 ₹</h5>
-                            </div>
-                            <div class="MiniCartProductRemoverBtndiv">
-                                <a href="#"><i class="fa-solid fa-x fa-sm" style="color: #000000;"></i></a>
-                            </div>
+                        <div class="MiniCartItemDiv">
                         </div>
                         <hr>
                         <div class="Minicarttotal">
                             <h2>Subtotal</h2>
-                            <h1>
-                                1755$
+                            <h1 class="SubtotalMiniCart">
+                                $0
                             </h1>
                         </div>
                         <div class="MiniCartButton">
@@ -221,31 +182,36 @@
         </nav>
     </section>
     <section class="SingleProductSection">
-        <h3><a href="../index.html">Home</a> / <a href="../Brand page links/Adidas.html">Adidas</a> / <span
-                style="color: #828fa1;">VS PACE 2.0 SHOES</span></h3>
+        <h3><a href="../Index.html">Home</a> / <a href="../Brand page links/Nike.html">By NIKE</a> / <span
+                style="color: #828fa1;">AAF88 x Billie</span></h3>
         <hr>
         <div class="SingleProContainer  D-F">
             <div class="SingleProductShopDiv">
                 <div class="Timg">
-                    <a data-fslightbox="gallery" href="../Assets/Adidas Product/P1-1.jpg"><img
-                        src="../Assets/Adidas Product/P1-1.jpg" width="100%" height="300px" id="mainimg" alt="">
+                    <a data-fslightbox="gallery" href="../Assets/Nike Product/01.jpg"><img class="productImg"
+                            src="../Assets/Nike Product/01.jpg" width="100%" height="300px" id="mainimg" alt="">
                     </a>
                 </div>
                 <div class="SingleProductImage D-F">
                     <div class="product-image">
-                        <a data-fslightbox="gallery" href="../Assets/Adidas Product/P1-2.jpg "><img src="../Assets/Adidas Product/P1-2.jpg" width="100%" class="product-group" alt="shirt"></a>
+                        <a data-fslightbox="gallery" href="../Assets/Adidas Product/P1-2.jpg "><img
+                                src="../Assets/Adidas Product/P1-2.jpg" width="100%" class="product-group"
+                                alt="shirt"></a>
                     </div>
                     <div class="product-image">
-                        <a data-fslightbox="gallery" href="../Assets/Adidas Product/P1-3.jp"><img src="../Assets/Adidas Product/P1-3.jpg" width="100%" class="product-group" alt="shirt"></a>
+                        <a data-fslightbox="gallery" href="../Assets/Adidas Product/P1-3.jp"><img
+                                src="../Assets/Adidas Product/P1-3.jpg" width="100%" class="product-group"
+                                alt="shirt"></a>
                     </div>
                     <div class="product-image">
-                        <a data-fslightbox="gallery" href="../Assets/Adidas Product/P1-4.jpg"><img src="../Assets/Adidas Product/P1-4.jpg" width="100%" class="product-group" alt="shirt"></a>
+                        <a data-fslightbox="gallery" href="../Assets/Adidas Product/P1-4.jpg"><img
+                                src="../Assets/Adidas Product/P1-4.jpg" width="100%" class="product-group"
+                                alt="shirt"></a>
                     </div>
                 </div>
             </div>
             <div class="pdiscription">
-
-                <h3><b>VS PACE 2.0 SHOES</b></h3>
+                <h3 class="productTitleIndPage"><b>AAF88 x Billie</b></h3>
                 <div class="RatingAndSoldCounter D-F">
                     <div class="ratingStar">
                         <i class="fa-solid fa-star fa-xs" style="color: #ffc800;"></i>
@@ -258,7 +224,7 @@
                         <h3 id="RatingCounter">( 2,111 )</h3>
                     </div>
                 </div>
-                <h3 id="ProductPrice"> $139.00</h3>
+                <h3 id="ProductPrice" class="productPriceIndP">1855.58 ₹</h3>
 
                 <div class="colors">
                     <p><strong>Color</strong></p>
@@ -314,7 +280,7 @@
                 </select>
                 <div class="Product-Number d-b">
                     <input type="number" value="1">
-                    <button class="button-type1"> Add to cart</button>
+                    <button class="button-type1 AddToCartBtns"> Add to cart</button>
                 </div>
                 <div class="Pdiscription">
                     <h3>Product Discription</h3>
@@ -410,7 +376,7 @@
                         <a href="./Brand page links/Adidas.html">
                             <h4>By ADIDAS</h4>
                         </a>
-                        <h5>1999 ₹</h5>
+                        <h5 class="productPrice">1999 ₹</h5>
                     </div>
                 </div>
                 <div class="Item">
@@ -437,7 +403,7 @@
                         <a href="./Brand page links/Puma.html">
                             <h4>By PUMA</h4>
                         </a>
-                        <h5>1999 ₹</h5>
+                        <h5 class="productPrice">1999 ₹</h5>
                     </div>
                 </div>
                 <div class="Item">
@@ -464,7 +430,7 @@
                         <a href="./Brand page links/Puma.html">
                             <h4>By PUMA</h4>
                         </a>
-                        <h5>1999 ₹</h5>
+                        <h5 class="productPrice">1999 ₹</h5>
                     </div>
                 </div>
                 <div class="Item">
@@ -491,7 +457,7 @@
                         <a href="./Brand page links/Nike.html">
                             <h4>By NIKE</h4>
                         </a>
-                        <h5>1999 ₹</h5>
+                        <h5 class="productPrice">1999 ₹</h5>
                     </div>
                 </div>
                 <div class="Item">
@@ -518,7 +484,7 @@
                         <a href="./Brand page links/Nike.html">
                             <h4>By NIKE</h4>
                         </a>
-                        <h5>1999 ₹</h5>
+                        <h5 class="productPrice">1999 ₹</h5>
                     </div>
                 </div>
                 <div class="Item">
@@ -545,7 +511,7 @@
                         <a href="./Brand page links/Adidas.html">
                             <h4>By ADIDAS</h4>
                         </a>
-                        <h5>1999 ₹</h5>
+                        <h5 class="productPrice">1999 ₹</h5>
                     </div>
                 </div>
                 <div class="Item">
@@ -572,7 +538,7 @@
                         <a href="./Brand page links/Puma.html">
                             <h4>By PUMA</h4>
                         </a>
-                        <h5>1999 ₹</h5>
+                        <h5 class="productPrice">1999 ₹</h5>
                     </div>
                 </div>
                 <div class="Item">
@@ -599,15 +565,16 @@
                         <a href="./Brand page links/Puma.html">
                             <h4>By PUMA</h4>
                         </a>
-                        <h5>1999 ₹</h5>
+                        <h5 class="productPrice">1999 ₹</h5>
                     </div>
                 </div>
             </div>
         </div>
-    </section> <hr>
+    </section>
+    <hr>
     <section class="footer">
         <div class="f-1">
-            <a href="../index.html"><img src="../Assets/logo1.png" alt="logo"></a>
+            <a href="../Index.html"><img src="../Assets/logo1.png" alt="logo"></a>
             <h4>Contact</h4>
             <br>
             <h4><span>Address</span>:xxxxxxxx, xxxxx , rajasthan, *****</h4>
@@ -685,8 +652,91 @@
             </div>
         </div>
     </section>
-    <script src="../index.js"></script>
+    <!-- <script src="../Index.js"></script> -->
     <script src="../fslightbox-basic-3.4.1/fslightbox.js"></script>
+    <!-- <script src="../cart.js"></script> -->
+    <script>
+        if (document.readyState == "loading") {
+            document.addEventListener("DOMContentLoaded", ready)
+        } else {
+            ready();
+        }
+        function ready() {
+            let RemoveBtns = document.getElementsByClassName('MiniCartItemremoveBtns')
+            for (let i = 0; i < RemoveBtns.length; i++) {
+                const RmvBtn = RemoveBtns[i];
+                RmvBtn.addEventListener("click", RemoveCartItems)
+            }
+            // Add to Cart
+            let AddCartBtns = document.getElementsByClassName('AddToCartBtns')
+            for (let k = 0; k < AddCartBtns.length; k++) {
+                const AddCartButton = AddCartBtns[k];
+                AddCartButton.addEventListener("click", AddCrtClicked)
+            }
+
+
+
+        }
+        function RemoveCartItems(event) {
+            var buttonclicked = event.target;
+            buttonclicked.parentElement.parentElement.remove()
+            UpdateSubtotal()
+
+        }
+        function AddCrtClicked(event) {
+            let button = event.target
+            let shopProduct = button.parentElement.parentElement
+            let productTitle = shopProduct.getElementsByClassName('productTitleIndPage')[0].innerText;
+            let productPrice = shopProduct.getElementsByClassName('productPriceIndP')[0].innerText;
+            let productImgs = document.getElementsByClassName('productImg')[0].src;
+            addProductToAdd(productTitle, productPrice, productImgs);
+            UpdateSubtotal();
+
+        }
+        function addProductToAdd(productTitle, productPrice, productImgs) {
+            let NewProductDiv = document.createElement('div')
+            NewProductDiv.classList.add('MinicartContent')
+            let cartContant = document.getElementsByClassName('MiniCartItemDiv')[0]
+            let cartTitles = cartContant.getElementsByClassName('productTitle')
+            for (let i = 0; i < cartTitles.length; i++) {
+                alert('Product is already added to Cart.')
+                return;
+            }
+            let MinicartContentbox = `<div class="MinicartProductImage">
+                                        <img class="ProductImage" src="${productImgs}" alt="">
+                                    </div>
+                                    <div class="MinicartProductDetails">
+                                        <a href="#">
+                                            <h3 class="productTitle">${productTitle}</h3>
+                                        </a>
+                                        <a href="../Brand page links/Puma.html">
+                                            <h4 class="ProductBrand">By PUMA</h4>
+                                        </a>
+                                        <h5 class="productPrice">${productPrice}</h5>
+                                    </div>
+                                    <div class="MiniCartProductRemoverBtndiv">
+                                        <i class="fa-solid fa-x fa-sm MiniCartItemremoveBtns" style="color: #000000;"></i>
+                                    </div>
+            `;
+            // console.log(cartContant)
+            NewProductDiv.innerHTML = MinicartContentbox;
+            cartContant.append(NewProductDiv);
+            NewProductDiv.getElementsByClassName('MiniCartItemremoveBtns')[0].addEventListener("click", RemoveCartItems);
+        }
+
+
+        function UpdateSubtotal() {
+            var cartContant = document.getElementsByClassName('MiniCartItemDiv')[0]
+            var cartBoxes = cartContant.getElementsByClassName("MinicartContent")
+            for (let i = 0; i < cartBoxes.length; i++) {
+                const cartBox = cartBoxes[i];
+                let priceElement = cartBox.getElementsByClassName('productPrice')[0]
+                let price = parseFloat(priceElement.innerText.replace("$", ""));
+                let subTotal = document.getElementsByClassName('SubtotalMiniCart')[0].innerText = "$" + price;
+            }
+        }
+
+    </script>
 </body>
 
 </html>
