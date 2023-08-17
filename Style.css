@@ -70,7 +70,12 @@ h2 {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px */
 }
-
+#CartBoxHeading{
+  height: 50px;
+  width: 100%;
+  font-family: "Didact Gothic", sans-serif;
+  background-color: #ff0000;
+}
 .CartBottomLeft table thead tr th {
   font-family: "Didact Gothic", sans-serif;
 }
@@ -94,8 +99,16 @@ h2 {
 .CartBottomLeft table tbody tr td:nth-child(3) {
   font-family: "Work Sans", sans-serif;
 }
-.CartBottomLeft table tbody tr td:nth-child(4) .CartQuantityCounter {
-  margin: auto;
+.CartBottomLeft table tbody tr td:nth-child(4) input {
+ width: 35px;
+ height: 30px;
+ font-family: "Work Sans", sans-serif;
+ font-size: 14px;
+ padding: 0px 3px;
+ font-weight: 700;
+}
+.CartBottomLeft table tbody tr td:nth-child(4) input:focus {
+outline: none;
 }
 .CartBottomLeft table tbody tr td:nth-child(5) {
   font-family: "Work Sans", sans-serif;
@@ -1856,10 +1869,11 @@ nav {
 
 .Mini-Cart {
   width: 400px;
+  /* height: 600px; */
   background-color: rgb(248, 244, 244);
   position: absolute;
   top: 100%;
-  overflow: auto;
+  
   right: 0;
   padding: 10px 10px;
   z-index: 1000;
@@ -1867,12 +1881,18 @@ nav {
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   display: none;
 }
+.MiniCartItemDiv {
+  
+  width: 100%;
+  overflow: auto;
+}
 .cartIconInNavbar:hover .Mini-Cart {
   display: block;
 }
 
 .cartIconInNavbar {
   margin-left: 10px;
+  position: relative;
 }
 /* .togglecart{
   display: none;
@@ -1889,6 +1909,7 @@ nav {
   align-items: center;
   justify-content: space-evenly;
   margin: 10px 10px;
+  display: flex;
 }
 .MinicartProductDetails {
   padding: 0px 5px;
@@ -1979,6 +2000,9 @@ nav {
 }
 
 @media screen and (max-width: 477px) {
+  .Search-input{
+    display: none;
+  }
   .dropdown {
     display: none;
   }
@@ -2164,13 +2188,70 @@ nav {
   }
   .footer {
     gap: 50px;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-    position: relative;
+   flex-direction: column;
+   padding: 0px 20px;
   }
+  
+  .SingleProContainer {
+    flex-direction: column;
+  }
+  .SingleProductShopDiv {
+    width: 100%;
+  }
+  .pdiscription {
+    width: 100%;
+  }
+  .pdiscription h3 b {
+    font-size: 18px;
+  }
+  .CustomerReviewdiv h1 {
+    font-size: 25px;
+  }
+  .FeaturedText h2 {
+    font-size: 20px;
+  }
+  .ViewAllBtnInFeaturedProducts a {
+    font-size: 14px;
+  }
+  .FeaturedProductsUnderProduct {
+    width: 100%;
+  }
+  .Item {
+    width: 145px;
+  }
+  .ItemPhoto img {
+    height: 145px;
+  }
+  .CartTop{
+    margin-top: 70px;
+  }
+  .CartBottom {
+    flex-direction: column; 
+  }
+  .CartTop h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .CartBottomLeft{
+    width: 100%;
+  }
+
+  .CartBottomLeft table tbody tr td {
+    font-size: 75%;
 }
+.CartBottomLeft table tbody tr td img {
+  height: 70px;
+}
+.CartDiv{
+  width: 90vw;
+  margin: auto;
+}
+.CartBottomRight{
+  width: 100%;
+  margin-top: 30px;
+}
+}
+
 @media (max-width: 391px) {
   .Item {
     padding: 10px 5px;
@@ -2181,6 +2262,36 @@ nav {
   .ItemPhoto img {
     height: 170px;
   }
+  .SingleProContainer {
+    flex-direction: column;
+  }
+  .SingleProductShopDiv {
+    width: 100%;
+  }
+  .pdiscription {
+    width: 100%;
+  }
+  .pdiscription h3 b {
+    font-size: 18px;
+  }
+  .CustomerReviewdiv h1 {
+    font-size: 25px;
+  }
+  .FeaturedText h2 {
+    font-size: 20px;
+  }
+  .ViewAllBtnInFeaturedProducts a {
+    font-size: 14px;
+  }
+  .FeaturedProductsUnderProduct {
+    width: 100%;
+  }
+  .Item {
+    width: 145px;
+  }
+  .ItemPhoto img {
+    height: 145px;
+  }
 }
 
 @media (max-width: 395px) {
@@ -2190,12 +2301,12 @@ nav {
   .BLogo {
     height: 50px;
   }
-  .Item {
+  /* .Item {
     width: 160px;
   }
   .ItemPhoto img {
     height: 155px;
-  }
+  } */
   .product {
     width: 160px;
   }
@@ -2216,5 +2327,36 @@ nav {
   }
   .product img {
     height: 150px;
+  }
+  
+  .SingleProContainer {
+    flex-direction: column;
+  }
+  .SingleProductShopDiv {
+    width: 100%;
+  }
+  .pdiscription {
+    width: 100%;
+  }
+  .pdiscription h3 b {
+    font-size: 18px;
+  }
+  .CustomerReviewdiv h1 {
+    font-size: 25px;
+  }
+  .FeaturedText h2 {
+    font-size: 20px;
+  }
+  .ViewAllBtnInFeaturedProducts a {
+    font-size: 14px;
+  }
+  .FeaturedProductsUnderProduct {
+    width: 100%;
+  }
+  .Item {
+    width: 140px;
+  }
+  .ItemPhoto img {
+    height: 145px;
   }
 }
