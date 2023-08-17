@@ -2253,6 +2253,9 @@ nav {
 }
 
 @media (max-width: 391px) {
+   .Search-input{
+    display: none;
+  }
   .Item {
     padding: 10px 5px;
     background-color: #f6f6f6;
@@ -2295,6 +2298,9 @@ nav {
 }
 
 @media (max-width: 395px) {
+   .Search-input{
+    display: none;
+  }
   /* nav{
     padding: 0px 30px;
   } */
@@ -2316,6 +2322,9 @@ nav {
 }
 
 @media (max-width: 361px) {
+   .Search-input{
+    display: none;
+  }
   .Item {
     width: 155px;
   }
