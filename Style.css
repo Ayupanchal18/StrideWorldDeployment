@@ -70,7 +70,7 @@ h2 {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px */
 }
-#CartBoxHeading{
+#CartBoxHeading {
   height: 50px;
   width: 100%;
   font-family: "Didact Gothic", sans-serif;
@@ -100,15 +100,15 @@ h2 {
   font-family: "Work Sans", sans-serif;
 }
 .CartBottomLeft table tbody tr td:nth-child(4) input {
- width: 35px;
- height: 30px;
- font-family: "Work Sans", sans-serif;
- font-size: 14px;
- padding: 0px 3px;
- font-weight: 700;
+  width: 35px;
+  height: 30px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  padding: 0px 3px;
+  font-weight: 700;
 }
 .CartBottomLeft table tbody tr td:nth-child(4) input:focus {
-outline: none;
+  outline: none;
 }
 .CartBottomLeft table tbody tr td:nth-child(5) {
   font-family: "Work Sans", sans-serif;
@@ -1561,7 +1561,9 @@ nav {
   height: 20px;
 }
 .Timg {
-  padding: 0px;
+  padding: 0px 5px;
+  justify-content: center;
+  display: flex;
 }
 .pdiscription h3 b {
   font-size: 30px;
@@ -1873,7 +1875,7 @@ nav {
   background-color: rgb(248, 244, 244);
   position: absolute;
   top: 100%;
-  
+
   right: 0;
   padding: 10px 10px;
   z-index: 1000;
@@ -1882,7 +1884,6 @@ nav {
   display: none;
 }
 .MiniCartItemDiv {
-  
   width: 100%;
   overflow: auto;
 }
@@ -2000,11 +2001,57 @@ nav {
 }
 
 @media screen and (max-width: 477px) {
-  .Search-input{
+  .shopSection {
+    width: 90vw;
+    
+}
+.CatagoryAndProductContainer {
+  flex-direction: column;
+}
+.CatagoriesSection {
+  display: flex;
+  width: 100%;
+  padding: 10px 10px;
+  font-size: 12px;
+  font-family: "Didact Gothic", sans-serif;
+  justify-content: space-between;
+  position: unset;
+  z-index: 0;
+}
+.PriceRange{
+  width: 100px;
+}
+.SizeCatagory {
+  padding: 0px 5px;
+}
+  .Items {
+    width: 50%;
+  }
+  .Items2 {
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+  }
+  .Search-input {
     display: none;
   }
   .dropdown {
     display: none;
+  }
+  nav {
+    width: 100%;
+    padding: 0px 15px;
+    justify-content: space-around;
+    width: 440px;
+    justify-content: center;
+  }
+  #Shop > svg {
+    width: 16px;
+    margin-left: 5px;
+    transition: transform 0.3s ease-in-out;
   }
 
   .dropdown {
@@ -2041,9 +2088,7 @@ nav {
   .container-input {
     display: none;
   }
-  /* nav{
-    padding: 0px 0px;
-  } */
+
   #ListItem {
     display: block;
   }
@@ -2069,9 +2114,10 @@ nav {
     font-family: "Poppins", sans-serif;
   }
   #Shop {
-    font-size: 12px;
+    font-size: 11px;
     width: 100px;
     height: 25px;
+    padding: 2px 13px;
   }
   .Photo img {
     height: 200px;
@@ -2188,10 +2234,10 @@ nav {
   }
   .footer {
     gap: 50px;
-   flex-direction: column;
-   padding: 0px 20px;
+    flex-direction: column;
+    padding: 0px 20px;
   }
-  
+
   .SingleProContainer {
     flex-direction: column;
   }
@@ -2222,39 +2268,43 @@ nav {
   .ItemPhoto img {
     height: 145px;
   }
-  .CartTop{
+  .CartTop {
     margin-top: 70px;
   }
   .CartBottom {
-    flex-direction: column; 
+    flex-direction: column;
   }
-  .CartTop h1{
+  .CartTop h1 {
     font-size: 25px;
     margin-bottom: 10px;
   }
-  .CartBottomLeft{
+  .CartBottomLeft {
     width: 100%;
   }
 
   .CartBottomLeft table tbody tr td {
     font-size: 75%;
-}
-.CartBottomLeft table tbody tr td img {
-  height: 70px;
-}
-.CartDiv{
-  width: 90vw;
-  margin: auto;
-}
-.CartBottomRight{
-  width: 100%;
-  margin-top: 30px;
-}
+  }
+  .CartBottomLeft table tbody tr td img {
+    height: 70px;
+  }
+  .CartDiv {
+    width: 90vw;
+    margin: auto;
+  }
+  .CartBottomRight {
+    width: 100%;
+    margin-top: 30px;
+  }
 }
 
 @media (max-width: 391px) {
-   .Search-input{
-    display: none;
+  nav {
+    width: 100%;
+    padding: 0px 15px;
+    justify-content: space-around;
+    width: 420px;
+    justify-content: center;
   }
   .Item {
     padding: 10px 5px;
@@ -2298,9 +2348,6 @@ nav {
 }
 
 @media (max-width: 395px) {
-   .Search-input{
-    display: none;
-  }
   /* nav{
     padding: 0px 30px;
   } */
@@ -2322,9 +2369,6 @@ nav {
 }
 
 @media (max-width: 361px) {
-   .Search-input{
-    display: none;
-  }
   .Item {
     width: 155px;
   }
@@ -2337,7 +2381,7 @@ nav {
   .product img {
     height: 150px;
   }
-  
+
   .SingleProContainer {
     flex-direction: column;
   }
