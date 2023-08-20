@@ -2381,7 +2381,7 @@ nav {
     padding: 10px 5px;
     background-color: #f6f6f6;
     position: relative;
-    width: 185px;
+   
   }
   .ItemPhoto img {
     height: 170px;
@@ -2464,9 +2464,7 @@ nav {
   .FeaturedProductsUnderProduct {
     width: 100%;
   }
-  .Item {
-    width: 145px;
-  }
+ 
   .ItemPhoto img {
     height: 145px;
   }
@@ -2512,7 +2510,7 @@ nav {
     padding: 10px 5px;
     background-color: #f6f6f6;
     position: relative;
-    width: 170px;
+    width: 175px;
   }
   .ItemPhoto img {
     height: 170px;
@@ -2541,27 +2539,14 @@ nav {
   .FeaturedProductsUnderProduct {
     width: 100%;
   }
-  .Item {
-    width: 145px;
-  }
+  
   .ItemPhoto img {
     height: 145px;
   }
 }
 
 @media (max-width: 395px) {
-  /* nav{
-    padding: 0px 30px;
-  } */
-  .BLogo {
-    height: 50px;
-  }
-  /* .Item {
-    width: 160px;
-  }
-  .ItemPhoto img {
-    height: 155px;
-  } */
+  
   .product {
     width: 160px;
   }
@@ -2571,9 +2556,7 @@ nav {
 }
 
 @media (max-width: 361px) {
-  .Item {
-    width: 155px;
-  }
+  
   .ItemPhoto img {
     height: 145px;
   }
@@ -2608,9 +2591,7 @@ nav {
   .FeaturedProductsUnderProduct {
     width: 100%;
   }
-  .Item {
-    width: 140px;
-  }
+  
   .ItemPhoto img {
     height: 145px;
   }
