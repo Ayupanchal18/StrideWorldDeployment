@@ -2381,10 +2381,13 @@ nav {
     padding: 10px 5px;
     background-color: #f6f6f6;
     position: relative;
-   width: 165px;
+    width: 160px;
   }
-  .  .ItemPhoto img {
+  .ItemPhoto img {
     height: 150px;
+  }
+  .ItemDiscription h3 {
+    font-size: 16px;
   }
 
   .productSection {
