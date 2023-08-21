@@ -2147,6 +2147,9 @@ nav {
 }
 
 @media screen and (max-width: 477px) {
+   .SingleProductSection {
+    width: 90vw;
+  }
   .ContectSectionDiv {
     flex-direction: column;
     width: 90vw;
