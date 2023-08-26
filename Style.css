@@ -8,6 +8,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Borel&family=Inter:wght@600&family=Lato:wght@700&family=PT+Sans&family=Roboto:wght@300&family=Work+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Borel&family=Inter:wght@600&family=Lato:wght@700&family=PT+Sans&family=Poppins:wght@300&family=Roboto:wght@300&family=Work+Sans&display=swap");
 @import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+.popup {
+  height: 300px;
+  display: none;
+  margin-top: 200px;
+  position: absolute;
+  left: 35%;
+  background-color: gainsboro;
+  color: black;
+  width: 400px;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 4px;
+  background-color: #dbe2ef;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.popup-content {
+  position: relative;
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 14px;
+  color: #112d4e;
+}
+.popup-content ul {
+  line-height: 28px;
+}
+.popup-content ul li {
+  word-spacing: 3px;
+}
+.popup-content h2 {
+  margin: 20px 0px;
+  text-align: center;
+}
+.popup-content button {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+}
 .mainLoginInput::-webkit-input-placeholder {
   font-family: FontAwesome;
   font-weight: normal;
